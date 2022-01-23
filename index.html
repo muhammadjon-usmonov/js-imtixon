@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <title>Document</title>
+</head>
+<body class="bg-warning">
+
+    <div class="pokemons  pt-5">
+        <img class="pokemons__logo d-block mx-auto mb-5" src="./image/pokemon_logo.svg" alt="pokemon_logo" width="610" height="225">
+ 
+        <form class="pokemons__form text-center d-flex flex-wrap justify-content-center mb-5">
+            <input class="input input-img  form-control d-block  text-center p-3 " type="text"  placeholder="img url ..." required >
+            <input class="input input-title form-control d-block  text-center p-3 " type="text"  placeholder="name ..." required>
+            <input class="input input-type form-control d-block  text-center p-3 " type="text"  placeholder="type  { , } ..." required>
+            <input class="input input-weight form-control d-block  text-center p-3 " type="text" placeholder="weight  { kg }..." required>
+            <input class="input input-height form-control d-block  text-center p-3 mt-4" type="text" placeholder="height { m }..." required>
+
+            <button class="button form-control d-block   p-3 mt-4" type="submit"> Add</button>
+
+        </form>
+
+        <ul class="pokemons__list m-0 p-0 list-unstayled list-unstyled">
+
+        </ul>
+    </div>
+
+
+    <script src="./js/pokemon.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
